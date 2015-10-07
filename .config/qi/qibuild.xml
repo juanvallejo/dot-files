@@ -1,0 +1,16 @@
+<qibuild version="1">
+  <build />
+  <defaults>
+    <env />
+    <cmake generator="Unix Makefiles" />
+  </defaults>
+  <config name="ubuntu32">
+    <env />
+    <cmake />
+    <toolchain>ubuntu32</toolchain>
+    <profiles />
+  </config>
+  <worktree path="/home/nao/Documents/capstone">
+    <defaults />
+  </worktree>
+</qibuild>
