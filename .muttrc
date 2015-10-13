@@ -1,0 +1,21 @@
+set from = "Juan Vallejo <EMAIL>"
+set realname = "Juan Vallejo"
+set imap_user = "GMAIL_USERNAME"
+set imap_pass = "GMAIL_PASSWORD"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "[Gmail]/Drafts"
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+set smtp_url = "smtp://juanvallejo.me@smtp.gmail.com:587/"
+set smtp_pass = "GMAIL_PASSWORD"
+set move = no
+set imap_keepalive = 900
+set smtp_authenticators = "gssapi:login"
+set timeout = 10
+
+set beep_new
+set editor = "vim"
+
+bind index G imap-fetch-mail
